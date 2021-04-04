@@ -26,7 +26,7 @@
         <!--Home View Controller-->
         <scene sceneID="azg-ol-E2d">
             <objects>
-                <viewController id="oSV-iR-roM" customClass="HomeViewController" customModule="ReARSearchShopping" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="oSV-iR-roM" customClass="HomeViewController" customModule="ReARSearchShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dS8-Ke-qrI">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

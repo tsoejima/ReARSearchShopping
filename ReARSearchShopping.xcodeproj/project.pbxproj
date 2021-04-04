@@ -12,6 +12,7 @@
 		DF78CE5626183D230006F02C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF78CE5526183D230006F02C /* HomeViewController.swift */; };
 		DF78CE5F261843610006F02C /* ARSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF78CE5E261843610006F02C /* ARSearchViewController.swift */; };
 		DF78CE67261843CD0006F02C /* GradationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF78CE66261843CD0006F02C /* GradationSetting.swift */; };
+		DF78CE6F2618558B0006F02C /* ARFloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF78CE6E2618558B0006F02C /* ARFloatingViewController.swift */; };
 		DFEC31EA2615A98700D935AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC31E92615A98700D935AE /* AppDelegate.swift */; };
 		DFEC31EC2615A98700D935AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC31EB2615A98700D935AE /* SceneDelegate.swift */; };
 		DFEC31EE2615A98700D935AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC31ED2615A98700D935AE /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		DF78CE5526183D230006F02C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF78CE5E261843610006F02C /* ARSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSearchViewController.swift; sourceTree = "<group>"; };
 		DF78CE66261843CD0006F02C /* GradationSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradationSetting.swift; sourceTree = "<group>"; };
+		DF78CE6E2618558B0006F02C /* ARFloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFloatingViewController.swift; sourceTree = "<group>"; };
 		DFEC31E62615A98700D935AE /* ReARSearchShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReARSearchShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEC31E92615A98700D935AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFEC31EB2615A98700D935AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				DFEC31ED2615A98700D935AE /* ViewController.swift */,
 				DF78CE5526183D230006F02C /* HomeViewController.swift */,
 				DF78CE5E261843610006F02C /* ARSearchViewController.swift */,
+				DF78CE6E2618558B0006F02C /* ARFloatingViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				DFEC31EA2615A98700D935AE /* AppDelegate.swift in Sources */,
 				DFEC31EC2615A98700D935AE /* SceneDelegate.swift in Sources */,
 				DFEC31F42615A98700D935AE /* ReARSearchShopping.xcdatamodeld in Sources */,
+				DF78CE6F2618558B0006F02C /* ARFloatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

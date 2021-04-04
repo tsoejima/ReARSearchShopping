@@ -8,13 +8,15 @@
 import UIKit
 import ARKit
 import SceneKit
+import FloatingPanel
 
-class ARSearchViewController: UIViewController, ARSCNViewDelegate {
+class ARSearchViewController: UIViewController, ARSCNViewDelegate, FloatingPanelControllerDelegate {
     @IBOutlet weak var sceneView: ARSCNView!
     
     var xyz: float_t = 0.2
     var isFirst = true
     var times = true
+    var fpc = FloatingPanelController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +27,6 @@ class ARSearchViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        // Create a new scene
-        //let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // Set the scene to the view
-        //sceneView.scene = scene
-        
         // 特徴点を表示
         sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
 
@@ -40,6 +36,11 @@ class ARSearchViewController: UIViewController, ARSCNViewDelegate {
         // タップした時のaction追加
         let tapScreen = UITapGestureRecognizer(target: self, action: #selector(tapped))
         self.sceneView.addGestureRecognizer(tapScreen)
+        
+        let arVC = ARFloatingViewController()
+            fpc.delegate = self
+            fpc.set(contentViewController: arVC)
+            fpc.addPanel(toParent: self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -103,3 +104,5 @@ class ARSearchViewController: UIViewController, ARSCNViewDelegate {
         
     }
 }
+
+
