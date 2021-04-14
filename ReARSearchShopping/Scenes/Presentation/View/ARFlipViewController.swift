@@ -13,6 +13,8 @@ class ARFlipViewController: UIViewController {
         super.viewDidLoad()
         let aRFlipViewController = self.storyboard?.instantiateViewController(withIdentifier: "ARFlipViewController") as! ARFlipViewController
         self.present(aRFlipViewController, animated: true, completion: nil)
+        
+    //フリップメインがわ
     }
     
 
